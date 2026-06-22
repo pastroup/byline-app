@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+
+# Xcode build artifacts
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xcscmblueprint
+
+# Distributable binaries (published as GitHub Release assets, not committed)
+dist/
