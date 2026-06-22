@@ -4,10 +4,24 @@ A native macOS app that turns a short story into a finished, email-ready HTML
 newsletter matching the MAIA brand template. Write an issue in the left pane and
 see the styled, email-safe HTML live on the right; copy or export it with one click.
 
+## Download
+
+**[⬇️ Download Byline (.dmg)](https://github.com/pastroup/byline-app/releases/latest/download/Byline.dmg)** &nbsp;·&nbsp; [All releases](https://github.com/pastroup/byline-app/releases/latest)
+
+Open the `.dmg` and drag **Byline** into your Applications folder. Requires macOS 13
+(Ventura) or later; universal (Apple Silicon + Intel).
+
+> **First launch:** Byline isn't notarized (no paid Apple Developer account), so macOS
+> warns the first time. Right-click **Byline → Open → Open** (once). On newer macOS,
+> instead use **System Settings → Privacy & Security → "Open Anyway"**. After that it
+> opens normally.
+
+## Features
+
 - **Native Swift + SwiftUI**, single window, no Electron / web wrapper.
 - **Zero third-party dependencies** — only Apple frameworks (SwiftUI, AppKit, WebKit).
 - **Universal** (Apple Silicon + Intel), **macOS 13 (Ventura)** or later.
-- Release build is ~1.6 MB with no bundled runtimes.
+- Release build is ~2.3 MB with no bundled runtimes.
 
 ## Build & run
 
